@@ -15,4 +15,4 @@ stringToUse.split("\n").forEach(massValue => {
     }
     totalFuel += moduleFuel;
 });
-console.log(`The total fuel required for this mass is ${totalFuel.toLocaleString('fullwide', {useGrouping:false}) }`);
+console.log(`The total fuel required for this mass is ${totalFuel}`);
